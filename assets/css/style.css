@@ -1,10 +1,13 @@
 body{
-    margin: 0 auto
+    margin: 0 auto;
+
 }
+
 header{
-    background-color: darkblue;
+    background-color: #0055b7;
     height: 120px;
 }
+
 .container{
     margin: 0 auto;
     width: 1140px;
@@ -12,53 +15,73 @@ header{
 .row{
     display: flex;
 }
+
 .logo{
     width: 15%;
     height: 120px;
+    background-color: #0055b7;
+
+}
+.logo > img {
+    margin-top: 25px;
 }
 .menu-principal{
-    width: 61%;
+    width: 60%;
     height: 120px;
-    background-color: blue;
+    background-color: #0055b7;
 }
+
 .logo-inst{
-    width: 24%;
+    width: 25%;
     height: 120px;
+    background-color: #0055b7;
 }
-.logo-principal{
-    margin-top: 24px ;
-    margin-left: 7px;
+.logo-inst > img{
+    margin-top: 15px;
 }
-.logo-secundario{
-    margin-top: 28px;
-    margin-left: 7px;
-}
+
 .menu-nav{
     float: right;
+    font-family: 'roboto', sans-serif;
 }
 .menu-nav > ul{
     list-style-type: none;
     overflow: hidden;
+    text-align: center;
+    padding-top: 25px;
 }
 .menu-nav > ul > li{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-left: 15px;
+    line-height: 20px;
     float: left;
 }
 .menu-nav > ul > li > a{
-    color: azure;
+    text-decoration: none;
+    color: white;
+    font-weight: 90;
+    line-height: 20px;
+    float: left;
 }
-.Nosotros-1{
-    margin-top: 28px;
-    margin-left: 7px;
+
+.menu-nav > ul > li > a:hover {
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+    line-height: 20px;
+    float: left;
 }
-.Contacto-1{
-    margin-top: 28px;
-    margin-left: 7px;
-}
-.Proyecto-1{
-    margin-top: 28px;
-    margin-left: 7px;
-}
-.Index-1{
-    margin-top: 28px;
-    margin-left: 7px;
+
+.linea {
+    -ms-transform: translate(0px, 37%);
+    transform: translate(0px, 37%);
+    width: 113px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    padding: 0px 15px 15px;
 }
