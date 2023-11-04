@@ -22,7 +22,21 @@ header{
     background-color: #0055b7;
 
 }
-.logo > img {
+.col-12{
+    background-image: url("../img/portad-banco-1280x443.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.col-4{
+    text-align: right;
+    padding-top: 100px;
+    padding-left: 600px;
+    color: white;
+}
+
+.col-2 > img {
     margin-top: 25px;
 }
 .menu-principal{
@@ -32,17 +46,20 @@ header{
 }
 
 .logo-inst{
-    width: 25%;
+    width: 60%;
     height: 120px;
     background-color: #0055b7;
+
 }
-.logo-inst > img{
-    margin-top: 15px;
+.col-7 > img{
+    margin-top: 20px;
 }
+
 
 .menu-nav{
     float: right;
-    font-family: 'roboto', sans-serif;
+    font-family: 'algerian', sans-serif;
+    margin-top: -20px;
 }
 .menu-nav > ul{
     list-style-type: none;
@@ -69,7 +86,8 @@ header{
 
 .menu-nav > ul > li > a:hover {
     text-decoration: none;
-    color: gray;
+    color: white;
+    opacity: 40%;
     font-weight: 100;
     line-height: 20px;
     float: left;
@@ -79,9 +97,67 @@ header{
     -ms-transform: translate(0px, 37%);
     transform: translate(0px, 37%);
     width: 113px;
-    color: white;
+    color: #ffffff;
     text-align: center;
     border-style: solid;
-    border-width: 0px 1px 0px 1px;
+    border-width: 0px 0px 0px 1px;
     padding: 0px 15px 15px;
+}
+.primera{
+    border-width: 0px 0px 0px 0px !important;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: auto;
+
+}
+
+.col-12{
+    max-width: 100%;
+    flex: 0 0 auto;
+}
+.col-11{
+    max-width: 91.667%;
+    flex: 0 0 auto;
+}
+.col-10{
+    max-width: 83.333%;
+    flex: 0 0 auto;
+}
+.col-9{
+    max-width: 50%;
+    flex: 0 0 auto;
+}
+.col-8{
+    max-width: 66.667%;
+    flex: 0 0 auto;
+}
+.col-7{
+    max-width: 58.333%;
+    flex: 0 0 auto;
+}
+.col-6{
+    max-width: 50%;
+    flex: 0 0 auto;
+}
+.col-5{
+    max-width: 41.667%;
+    flex: 0 0 auto;
+}
+.col-4{
+    max-width: 33.333%;
+    flex: 0 0 auto;
+}
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 auto;
+}
+.col-2{
+    max-width: 16.667%;
+    flex: 0 0 auto;
+}
+.col-1{
+    max-width: 8.333%;
+    flex: 0 0 auto;
 }
